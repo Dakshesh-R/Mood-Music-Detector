@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood Music Detector</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+
+  <!-- QR Code Styling CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+</head>
+<body class="bg-light">
+
+  <div class="container d-flex justify-content-center align-items-center vh-100 flex-column">
+    <div class="card shadow" style="width: 640px;">
+      <div class="video-container position-relative">
+        <video id="video" width="640" height="480" autoplay muted></video>
+      </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">Mood Music Detector</h5>
+        <div class="dropdown mb-3">
+          <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Choose a Song
+          </button>
+          <ul class="dropdown-menu" id="songDropdown">
+          </ul>
+        </div>
+        <p class="card-text">Detects your mood and plays music that matches your vibe.</p>
+        <button id="startBtn" class="btn btn-success">Start Detection</button>
+        <button id="restartBtn" class="btn btn-outline-secondary mt-2 d-none">Restart Detection</button>
+      </div>
+    </div>
+
+    <div id="qrCodeContainer" class="mt-4 text-center"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

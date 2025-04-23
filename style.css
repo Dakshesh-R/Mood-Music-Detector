@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures the image fits inside the container */
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bg-default {
+  background: linear-gradient(to right, #f8f9fa, #e0e0e0);
+}
+
+.bg-happy {
+  background-color: #87CEEB !important;
+  background-image: url('./SVG/clouds.svg'), url('./SVG/clouds.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: 20% 30%, 70% 50%;
+  background-size: 180px, 150px;
+  animation: floatClouds 25s linear infinite;
+  background-attachment: fixed;
+}
+
+@keyframes floatClouds {
+  0% {
+    background-position: 10% 25%, 70% 50%;
+  }
+  50% {
+    background-position: 30% 30%, 60% 60%;
+  }
+  100% {
+    background-position: 10% 25%, 70% 50%;
+  }
+}
+
+.bg-sad {
+  background-image:
+    url('./SVG/rain2.svg'), /* New cloud (on top, in front) */
+    url('./SVG/rain.svg'),
+    linear-gradient(to right, #314755, #26a0da);
+    
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position:
+    top -30% left 10%,
+    top -50% left -20%,
+    center;
+
+  background-size:
+    400px,
+    450px,
+    cover;
+
+  animation: drift 6s ease-in-out infinite;
+}
+
+.bg-angry {
+  background-image:
+    url('./SVG/fire.svg'),
+    url('./SVG/fire.svg'),
+    url('./SVG/fire.svg'),
+    url('./SVG/fire.svg'),
+    linear-gradient(to right, #ff6f35, #ff0000);
+
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+
+  background-position:
+    bottom left 10%,
+    bottom right 15%,
+    center bottom,
+    top right 5%,
+    center;
+
+  background-size:
+    120px,
+    100px,
+    140px,
+    80px,
+    cover;
+
+  animation: flicker 2s infinite alternate;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.9;
+    transform: scale(1.02);
+  }
+}
+
+.bg-neutral {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+.bg-surprised {
+  position: relative;
+  background: linear-gradient(to right, #fc00ff, #00dbde); /* Just the gradient */
+}
+
+.bg-surprised::before,
+.bg-surprised::after {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-image: url('./SVG/firework.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  animation: burst 3s ease-in-out infinite;
+}
+
+.bg-surprised::before {
+  top: 60%;
+  left: 10%;
+}
+
+.bg-surprised::after {
+  top: 10%;
+  right: 10%;
+}
+
+@keyframes burst {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.85;
+  }
+}
+
+.bg-fearful {
+  position: relative;
+  background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+  overflow: hidden;
+}
+
+.bg-fearful::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 125%;
+  height: 125%;
+  background-image: url('./SVG/fog.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  z-index: 0;
+  opacity: 0.6;
+  animation: slowDrift 20s linear infinite;
+}
+
+@keyframes slowDrift {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-5%); }
+}
+
+.bg-fearful > * {
+  position: relative;
+  z-index: 1;
+  opacity: 0.85;
+  filter: blur(0.2px);
+}
+
+.bg-disgusted {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #9acd32, #556b2f);
+  overflow: hidden;
+}
+
+.bg-disgusted::before,
+.bg-disgusted::after {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+  animation: wobble 6s infinite ease-in-out;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.bg-disgusted::before {
+  top: 10%;
+  left: 20%;
+  background-image: url('./SVG/splash.svg');
+  transform: translateX(-50%);
+}
+
+.bg-disgusted::after {
+  top: 50%;
+  left: 80%;
+  background-image: url('./SVG/splash2.svg');
+  transform: translateX(50%);
+}
+
+@keyframes wobble {
+  0%, 100% { transform: translateX(-50%) rotate(0deg) scale(1); }
+  50% { transform: translateX(-50%) rotate(1deg) scale(1.01); }
+}
+
+.transition-bg {
+  transition: background 0.6s ease;
+}
+
+.qr-code-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}

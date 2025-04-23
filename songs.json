@@ -1,0 +1,399 @@
+{
+    "happy": [
+      {
+        "name": "Matargashti",
+        "artists": "Mohit Chauhan",
+        "url": "https://open.spotify.com/track/5GeBgck1MU2tlIkMpsn8uT"
+      },
+      {
+        "name": "Chammak Challo",
+        "artists": "Akon, Hamsika Iyer",
+        "url": "https://open.spotify.com/track/1NAIpKXIwJgnoyX8ikqikn"
+      },
+      {
+        "name": "Chaleya",
+        "artists": "Arijit Singh, Shilpa Rao",
+        "url": "https://open.spotify.com/track/4nc6XiUze2Yh7wFueGOPv7"
+      },
+      {
+        "name": "Aankh Marey",
+        "artists": "Neha Kakkar, Mika Singh, Kumar Sanu",
+        "url": "https://open.spotify.com/track/63MvWd6T6yoS7h4AJ4Hjrm"
+      },
+      {
+        "name": "Tum Hi Ho Bandhu",
+        "artists": "Neeraj Shridhar, Kavita Seth",
+        "url": "https://open.spotify.com/track/2zZTXtLqCsICzEcztKjn47"
+      },
+      {
+        "name": "Cutiepie",
+        "artists": "Nakash Aziz, Neeti Mohan",
+        "url": "https://open.spotify.com/track/4WYo5dEixa8tK8pAXyNCLQ"
+      },
+      {
+        "name": "Manwa Laage",
+        "artists": "Shreya Ghoshal, Arijit Singh",
+        "url": "https://open.spotify.com/track/3H43T5swYywvcdCBFiDgW6"
+      },
+      {
+        "name": "Balam Pichkari",
+        "artists": "Shalmali Kholgade, Vishal Dadlani",
+        "url": "https://open.spotify.com/track/18e3XXYCv4Tx8uUl1mP3CN"
+      },
+      {
+        "name": "OH HO HO HO",
+        "artists": "Sukhbir",
+        "url": "https://open.spotify.com/track/3NpNTYETMcXspfs8hE8T7h"
+      },
+      {
+        "name": "Illahi",
+        "artists": "Arijit Singh, Pritam",
+        "url": "https://open.spotify.com/track/5cgKosPPj5Cs9a2JQufUc1"
+      },
+      {
+        "name": "Tareefan",
+        "artists": "Badshah",
+        "url": "https://open.spotify.com/track/2SN54RFfaafTk7TE1n1Na4"
+      },
+      {
+        "name": "The Breakup Song",
+        "artists": "Nakash Aziz, Arijit Singh, Badshah, Jonita Gandhi",
+        "url": "https://open.spotify.com/track/7BjQd0sfYsMGVrTpRdBNTT"
+      },
+      {
+        "name": "Kabhi Kabhi Aditi",
+        "artists": "Rashid Ali",
+        "url": "https://open.spotify.com/track/3APdIdF8H0jsxSuGOqXedS"
+      },
+      {
+        "name": "Bom Diggy Diggy",
+        "artists": "Zack Knight, Jasmin Walia",
+        "url": "https://open.spotify.com/track/15C2MmLAPMwo2KtNWRh6vg"
+      },
+      {
+        "name": "Desi Girl",
+        "artists": "Shankar Mahadevan, Sunidhi Chauhan, Vishal Dadlani",
+        "url": "https://open.spotify.com/track/3Qpk2qHree1RTH5lZaKnEK"
+      },
+      {
+        "name": "London Thumakda",
+        "artists": "Labh Janjua, Sonu Kakkar, Neha Kakkar",
+        "url": "https://open.spotify.com/track/1VY2incfH4TLT9PCbot6lj"
+      }
+        
+      
+    ],
+    "sad": [
+        {
+          "name": "Tujhe Kitna Chahne Lage",
+          "artists": "Arijit Singh",
+          "url": "https://open.spotify.com/track/5QtEFRYavs5S3GHtFEq7A4"
+        },
+        {
+          "name": "Channa Mereya",
+          "artists": "Arijit Singh",
+          "url": "https://open.spotify.com/track/1plFCZ6QFAjSRutT02GTCn"
+        },
+        {
+          "name": "Agar Tum Saath Ho",
+          "artists": "Alka Yagnik, Arijit Singh",
+          "url": "https://open.spotify.com/track/3hkC9EHFZNQPXrtl8WPHnX"
+        },
+        {
+          "name": "Phir Le Aya Dil",
+          "artists": "Rekha Bhardwaj",
+          "url": "https://open.spotify.com/track/2OvldWM8rVnp7QCn9eCrr1"
+        },
+        {
+          "name": "Tadap Tadap",
+          "artists": "KK",
+          "url": "https://open.spotify.com/track/5IrJ0hU7oJiGbZnFEUQhtd"
+        },
+        {
+          "name": "Tera Yaar Hoon Main",
+          "artists": "Arijit Singh",
+          "url": "https://open.spotify.com/track/4ZTx87kAgEwlPMzoojFZWg"
+        },
+        {
+          "name": "Chithi Na Koi Sandesh",
+          "artists": "Jagjit Singh",
+          "url": "https://open.spotify.com/track/6PXISn2oRpmYoFwRT801il"
+        },
+        {
+          "name": "Hamari Adhuri Kahani",
+          "artists": "Arijit Singh",
+          "url": "https://open.spotify.com/track/3HiobOOpSpMsi95WBKPBYk"
+        },
+        {
+          "name": "Tujh Mein Rab Dikhta Hai",
+          "artists": "Roop Kumar Rathod",
+          "url": "https://open.spotify.com/track/2LcXJP95e4HKydTZ2mYfrx"
+        },
+        {
+          "name": "Bhula Dena",
+          "artists": "Mustafa Zahid",
+          "url": "https://open.spotify.com/track/0WNCYgCd33LnBnw22WFuq8"
+        },
+        {
+          "name": "Kabira",
+          "artists": "Tochi Raina, Rekha Bhardwaj",
+          "url": "https://open.spotify.com/track/4bD9z9qa4qg9BhryvYWB7c"
+        },
+        {
+          "name": "Sun Raha Hai",
+          "artists": "Ankit Tiwari",
+          "url": "https://open.spotify.com/track/75vicrKbz8e789YkX17uhm"
+        },
+        {
+          "name": "Laal Ishq",
+          "artists": "Arijit Singh",
+          "url": "https://open.spotify.com/track/5OrwxmwjaO9p2iyF8BXyRj"
+        },
+        {
+          "name": "Bolna",
+          "artists": "Arijit Singh, Asees Kaur",
+          "url": "https://open.spotify.com/track/7zn5ecZSwGsLTi1wgxyVzd"
+        },
+        {
+          "name": "Tum Hi Ho",
+          "artists": "Mithoon, Arijit Singh",
+          "url": "https://open.spotify.com/track/56zZ48jdyY2oDXHVnwg5Di"
+        }
+    ],
+    "angry": [
+        {
+            "name": "In the End",
+            "artists": "Linkin Park",
+            "url": "https://open.spotify.com/track/60a0Rd6pjrkxjPbaKzXjfq"
+          },
+          {
+            "name": "Numb",
+            "artists": "Linkin Park",
+            "url": "https://open.spotify.com/track/2nLtzopw4rPReszdYBJU6h"
+          },
+          {
+            "name": "Crawling",
+            "artists": "Linkin Park",
+            "url": "https://open.spotify.com/track/57BrRMwf9LrcmuOsyGilwr"
+          },
+          {
+            "name": "BURN IT DOWN",
+            "artists": "Linkin Park",
+            "url": "https://open.spotify.com/track/7oVEtyuv9NBmnytsCIsY5I"
+          },
+          {
+            "name": "The Emptiness Machine",
+            "artists": "Linkin Park",
+            "url": "https://open.spotify.com/track/2PnlsTsOTLE5jnBnNe2K0A"
+          },
+          {
+            "name": "When I Grow Up",
+            "artists": "NF",
+            "url": "https://open.spotify.com/track/0hWzB4dR1zwcokPvccww0k"
+          },
+          {
+            "name": "HOPE",
+            "artists": "NF",
+            "url": "https://open.spotify.com/track/12cZWGf5ZgLcKubEW9mx5q"
+          },
+          {
+            "name": "Dhan Te Nan",
+            "artists": "Sukhwinder Singh",
+            "url": "https://open.spotify.com/track/2BOY77LvMTUOfLcnfFAJGl"
+          },
+          {
+            "name": "Soorma Anthem",
+            "artists": "Shankar-Ehsaan-Loy",
+            "url": "https://open.spotify.com/track/01d8tSqJUrPlK1l8FwgsCF"
+          },
+          {
+            "name": "Bhaag Milkha Bhaag - Rock Version",
+            "artists": "Shankar-Ehsaan-Loy",
+            "url": "https://open.spotify.com/track/0KtHnXQjYkHNDsjTX3XqLc"
+          },
+          {
+            "name": "Saadda Haq",
+            "artists": "Mohit Chauhan",
+            "url": "https://open.spotify.com/track/7k3jpyYPnVnbO0p7iejWxL"
+          },
+          {
+            "name": "Kar Har Maidaan Fateh",
+            "artists": "Sukhwinder Singh",
+            "url": "https://open.spotify.com/track/3FHl1QYu76zguwjqhqcglX"
+          },
+          {
+            "name": "Jee Karda",
+            "artists": "Sachin-Jigar",
+            "url": "https://open.spotify.com/track/5KZfM2W4L74di6cYgKoUE5"
+          },
+          {
+            "name": "Khalibali",
+            "artists": "Shivam Pathak",
+            "url": "https://open.spotify.com/track/3JT0mVof65rIHpRZITwRx1"
+          },
+          {
+            "name": "Raftaarein",
+            "artists": "Vishal-Shekhar",
+            "url": "https://open.spotify.com/track/3pjZQfBShK7O01QvtQwmcg"
+          }
+    ],
+    "neutral": [
+            {
+              "name": "Tum Mile",
+              "artists": "Pritam, Neeraj Shridhar",
+              "url": "https://open.spotify.com/track/1EjxJHY9A6LMOlvyZdwDly"
+            },
+            {
+              "name": "Tera Ban Jaunga",
+              "artists": "Akhil Sachdeva, Tulsi Kumar",
+              "url": "https://open.spotify.com/track/3oWxFNsXstcancCR1wODR4"
+            },
+            {
+              "name": "Raabta",
+              "artists": "Arijit Singh, Pritam",
+              "url": "https://open.spotify.com/track/6tzckBcK66LzeSA1Opnv35"
+            },
+            {
+              "name": "Jeene Laga Hoon",
+              "artists": "Atif Aslam, Shreya Ghoshal",
+              "url": "https://open.spotify.com/track/3t3wsY5IdLVzB9WidegJSU"
+            },
+            {
+              "name": "Pee Loon",
+              "artists": "Mohit Chauhan",
+              "url": "https://open.spotify.com/track/52itZ0w0CydihB2JCZEIft"
+            },
+            {
+              "name": "Tera Hone Laga Hoon",
+              "artists": "Atif Aslam, Shreya Ghoshal",
+              "url": "https://open.spotify.com/track/0dLbrlAVPPjpPqnYfmJsWk"
+            },
+            {
+              "name": "Sun Saathiya",
+              "artists": "Priya Saraiya, Divya Kumar",
+              "url": "https://open.spotify.com/track/5a2Hoi1wuhCA6Ob7pbOlpW"
+            },
+            {
+              "name": "Tum Hi Ho",
+              "artists": "Arijit Singh",
+              "url": "https://open.spotify.com/track/0haRqlwPrMMOODyfCeejsL"
+            },
+            {
+              "name": "Galliyan",
+              "artists": "Ankit Tiwari",
+              "url": "https://open.spotify.com/track/517bz7zkWELmyL4eZzJ5R9"
+            },
+            {
+              "name": "Muskurane",
+              "artists": "Arijit Singh",
+              "url": "https://open.spotify.com/track/6fW78cd0p3ZDUzoqvx2Xqe"
+            },
+            {
+              "name": "Tera Yaar Hoon Main",
+              "artists": "Arijit Singh",
+              "url": "https://open.spotify.com/track/4ZTx87kAgEwlPMzoojFZWg"
+            },
+            {
+              "name": "Satranga",
+              "artists": "Arijit Singh",
+              "url": "https://open.spotify.com/track/3yHyiUDJdz02FZ6jfUbsmY"
+            },
+            {
+              "name": "Hasi",
+              "artists": "Ami Mishra",
+              "url": "https://open.spotify.com/track/32765xcLM1fd6wQIpkN9A0"
+            },
+            {
+              "name": "Khairiyat",
+              "artists": "Arijit Singh",
+              "url": "https://open.spotify.com/track/5O932cZmzOZGOGZz9RHx20"
+            },
+            {
+              "name": "Dil Diyan Gallan",
+              "artists": "Atif Aslam",
+              "url": "https://open.spotify.com/track/5MnAi6ZF7cE8pAz7wYr9Ta"
+            }
+          
+          
+    ],
+    "fearful": [
+            {
+              "name": "Hanuman Chalisa",
+              "artists": "Sachet Tandon",
+              "url": "https://open.spotify.com/track/3ubPRd3kGvfIjWP42HWjK3"
+            },
+            {
+              "name": "Ram Siya Ram",
+              "artists": "Sachet Tandon",
+              "url": "https://open.spotify.com/track/0lKILDCwOjyR54xYhBazuJ"
+            },
+            {
+              "name": "Krishna Flute",
+              "artists": "Rupak Mukherjee",
+              "url": "https://open.spotify.com/track/1LfQxsjG3DMA5mb4Qx0rTc"
+            },
+            {
+              "name": "Raghupati Raghav Raja Ram",
+              "artists": "Armonian",
+              "url": "https://open.spotify.com/track/2jVPtSSF8hIHJqKHaPWOQ4"
+            },
+            {
+              "name": "Shiv Tandav Stotram",
+              "artists": "Armonian",
+              "url": "https://open.spotify.com/track/0lEqUX903B68pBI694pmhq"
+            },
+            {
+              "name": "Om Chanting",
+              "artists": "Armonian",
+              "url": "https://open.spotify.com/track/4i2BIEhPK3UtQfHRfbseKm"
+            },
+            {
+              "name": "Jhol",
+              "artists": "Maanu",
+              "url": "https://open.spotify.com/track/4XTgFBxBHN6var1BzAgE1m"
+            },
+            {
+              "name": "Soft Calming Music",
+              "artists": "Relaxing Music for Stress Relief",
+              "url": "https://open.spotify.com/track/6xsOIolcDvXCHyJkpWJVuk"
+            },
+            {
+              "name": "Brain Training",
+              "artists": "Better Study Habits",
+              "url": "https://open.spotify.com/track/5SHmsOsh92hKpWz3wHem4l"
+            },
+            {
+              "name": "Enchanting Flute",
+              "artists": "Rakesh Chaurasia",
+              "url": "https://open.spotify.com/track/0zqWV67DuqFzLXiLJsAk9Z"
+            },
+            {
+              "name": "Tour to Gokul",
+              "artists": "Rupak Mukherjee",
+              "url": "https://open.spotify.com/track/7al1GFIEREWLwEAhqA6n6l"
+            },
+            {
+              "name": "Krishna Ananda",
+              "artists": "Rupak Mukherjee",
+              "url": "https://open.spotify.com/track/3u0VKpCwMCxL0y9o4jrmTG"
+            },
+            {
+              "name": "Laal Ishq (Magical Flute)",
+              "artists": "Kiran Baral",
+              "url": "https://open.spotify.com/track/78cke1nGBVVg1yAjnSmAx9"
+            },
+            {
+              "name": "Shankara",
+              "artists": "Rishab Rikhiram Sharma",
+              "url": "https://open.spotify.com/track/5jHb5VUjOepNc8DbwXkhYQ"
+            },
+            {
+              "name": "Chanakya",
+              "artists": "Rishab Rikhiram Sharma",
+              "url": "https://open.spotify.com/track/4WZE6JnKn3jacgnaJOTF9T"
+            }
+    ],
+    "disgusted": [],
+    "surprised": []
+  }
+  
